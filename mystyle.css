@@ -1,0 +1,92 @@
+body{
+    background: linear-gradient(black,rgb(0, 22, 0));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+header {
+    padding: 30px 0%;
+    width: 100%;
+    animation: fadein;
+    animation-duration: 1s;
+}
+
+header h1 {
+    font-family: monospace;
+    font-weight: 900;
+    font-size:60px;
+    color: white;
+    text-align: center;
+}
+
+header h1:hover {
+    animation: shake infinite;
+    animation-duration: 500ms;
+}
+
+
+@keyframes shake {
+    0%{transform: scale(1.01);transform: rotateY('100');}
+    50%{transform: scale(1);}
+    100%{transform: scale(1.01);}
+}
+
+
+.site {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: monospace;
+    border-style:dotted;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-color: limegreen;
+    border-radius: 15px;
+    border-width: 3px;
+    width: 80%;
+    transition: transform 1s;
+}
+
+.site:hover,.site:hover p,.site:hover h2 a:hover {
+    transform: scale(1.01);
+    animation-delay: 1s;
+    color: white;
+    background-color: limegreen;
+    
+}
+
+.site h2 a {
+    color: white;
+}
+
+.site h2 a:hover {
+    color: lime;
+}
+
+.site p {
+    color: lime;
+}
+
+.projects ul {
+    list-style: none;
+}
+
+.projects ul li a {
+    text-decoration: none;
+}
+
+ul,li {
+    margin: auto;
+    padding: 0;
+}
+
+footer {
+    position: sticky;
+    top: 100%;
+    font-family: monospace;
+    text-align: center;  
+    color: white; 
+    padding: 20px 0px;
+}
