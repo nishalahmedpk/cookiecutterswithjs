@@ -49,20 +49,19 @@ header h1:hover {
     transition: transform 1s;
 }
 
-.site:hover,.site:hover p,.site:hover h2 a:hover {
+.site:hover {
     transform: scale(1.01);
     animation-delay: 1s;
-    color: white;
     background-color: limegreen;
-    
+    text-align: left;
 }
 
-.site h2 a {
+.site:hover p {
     color: white;
 }
 
-.site h2 a:hover {
-    color: lime;
+.site h2 {
+    color: white;
 }
 
 .site p {
