@@ -4,7 +4,8 @@ body {
     padding: 0;
     --maincolor: rgb(0, 106, 206);
     --hovercolor: rgb(88, 88, 88);
-    min-height: 100vh;
+    height: auto;
+    width: auto;
 }
 
 img {
@@ -212,35 +213,13 @@ footer a{
 
 /* Services */
 
-.servicesheader {
-    display: flex; flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 40px;
-}
-
-.services {
-    display: flex;
-    align-items: center;
-    padding: 40px;
-}
-
-.service {
-    width: 40%;
-    padding: 30px;
-    margin: 20px;
-    background-color: rgb(218, 218, 218);
-    border-radius: 10px;
-}
+    .servicesheader {
+        text-align: center;
+        
+    }
 
 /* Courses */
 
-
-.price {
-    text-align: right;
-    border-top: 1px solid black;
-    padding-top: 10px;
-}
 
 /* Info */
 
