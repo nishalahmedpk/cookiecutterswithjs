@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    padding: 20%;
+    background-color: black;
+    color: green;
+}
+
+button {
+    padding: 20px;
+    background-color: black;
+    border-radius: 5px;
+    border: 3px solid green;
+    color: green;
+    font-size: 50px;
+    font-family: monospace;
+    transition: transform 1s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    
+}
