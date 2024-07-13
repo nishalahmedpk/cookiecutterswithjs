@@ -24,3 +24,17 @@
     // console.log(`usernam ${user} and domain is ${dom}`);
 
 // === & !== compares datatype also
+
+// loops like C
+
+// Arrays
+// let x = like python
+// accessing also like python
+// array.push(elem)
+// .pop
+// .unshift
+
+// Spread operator ...array/strings;
+
+
+

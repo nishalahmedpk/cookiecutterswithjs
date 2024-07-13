@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0px;
+    background-color: rgb(243, 243, 243);
+}
+
+.container {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 150px;
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+#dimages img{
+    width: 150px;
+    margin: 5px;
+}
