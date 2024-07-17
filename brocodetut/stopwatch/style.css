@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    font-size: 4rem;
+    color: green;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid green;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#display {
+    font-size: 5rem;
+    margin-bottom: 50px;
+}
+
+#controls button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+#controls button:hover {
+    color: black;
+    background-color: green;
+}

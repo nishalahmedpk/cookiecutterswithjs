@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+}
+
+#clock-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock {
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+}
